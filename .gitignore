@@ -15,6 +15,10 @@ ENV/
 uploads/*
 !uploads/.gitkeep
 
+# Generated data and plots
+data/plots/
+*.json
+
 # React
 frontend/node_modules/
 frontend/build/
