@@ -1,0 +1,10 @@
+Match_ID,Date,Player_Name,Team,Opposition,Venue,Runs_Scored,Balls_Faced,4s,6s,Dismissal_Type,Is_Century
+101,2025-11-01,Virat Kohli,India,Australia,Mumbai,89,64,8,2,Caught,No
+101,2025-11-01,Rohit Sharma,India,Australia,Mumbai,12,15,2,0,Bowled,No
+101,2025-11-01,David Warner,Australia,India,Mumbai,100,56,11,4,Not Out,Yes
+102,2025-11-05,Babar Azam,Pakistan,England,Lahore,55,42,5,1,Run Out,No
+102,2025-11-05,Jos Buttler,England,Pakistan,Lahore,121,68,9,6,Caught,Yes
+103,2025-11-10,Kane Williamson,New Zealand,South Africa,Wellington,28,31,3,0,LBW,No
+103,2025-11-10,Quinton de Kock,South Africa,New Zealand,Wellington,75,50,6,3,Stumped,No
+104,2025-11-15,Virat Kohli,India,South Africa,Durban,10,22,1,0,Caught,No
+104,2025-11-15,Rohit Sharma,India,South Africa,Durban,104,85,12,2,Caught,Yes

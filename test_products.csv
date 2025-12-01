@@ -1,0 +1,6 @@
+product,category,sales,quantity,region
+Laptop,Electronics,1200,5,North
+Mouse,Electronics,25,20,South
+Keyboard,Electronics,75,15,East
+Monitor,Electronics,300,8,West
+Headphones,Electronics,150,12,North

@@ -1,0 +1,44 @@
+Traceback (most recent call last):
+  File "/Users/vivekraj/.gemini/antigravity/scratch/data-analytics-agent/debug_agent.py", line 22, in test_agent
+    response = agent.chat("Calculate the sum of column A")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vivekraj/.gemini/antigravity/scratch/data-analytics-agent/agent/analytics_agent.py", line 344, in chat
+    function_response=FunctionResponse(
+                      ^^^^^^^^^^^^^^^^^
+  File "/Users/vivekraj/anaconda3/lib/python3.11/site-packages/proto/message.py", line 728, in __init__
+    pb_value = marshal.to_proto(pb_type, value)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vivekraj/anaconda3/lib/python3.11/site-packages/proto/marshal/marshal.py", line 235, in to_proto
+    pb_value = self.get_rule(proto_type=proto_type).to_proto(value)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vivekraj/anaconda3/lib/python3.11/site-packages/proto/marshal/rules/struct.py", line 139, in to_proto
+    fields={
+           ^
+  File "/Users/vivekraj/anaconda3/lib/python3.11/site-packages/proto/marshal/rules/struct.py", line 140, in <dictcomp>
+    k: self._marshal.to_proto(struct_pb2.Value, v) for k, v in value.items()
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vivekraj/anaconda3/lib/python3.11/site-packages/proto/marshal/marshal.py", line 235, in to_proto
+    pb_value = self.get_rule(proto_type=proto_type).to_proto(value)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vivekraj/anaconda3/lib/python3.11/site-packages/proto/marshal/rules/struct.py", line 82, in to_proto
+    struct_value=self._marshal.to_proto(struct_pb2.Struct, value),
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vivekraj/anaconda3/lib/python3.11/site-packages/proto/marshal/marshal.py", line 235, in to_proto
+    pb_value = self.get_rule(proto_type=proto_type).to_proto(value)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vivekraj/anaconda3/lib/python3.11/site-packages/proto/marshal/rules/struct.py", line 139, in to_proto
+    fields={
+           ^
+  File "/Users/vivekraj/anaconda3/lib/python3.11/site-packages/proto/marshal/rules/struct.py", line 140, in <dictcomp>
+    k: self._marshal.to_proto(struct_pb2.Value, v) for k, v in value.items()
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vivekraj/anaconda3/lib/python3.11/site-packages/proto/marshal/marshal.py", line 235, in to_proto
+    pb_value = self.get_rule(proto_type=proto_type).to_proto(value)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vivekraj/anaconda3/lib/python3.11/site-packages/proto/marshal/rules/struct.py", line 84, in to_proto
+    raise ValueError("Unable to coerce value: %r" % value)
+ValueError: Unable to coerce value: 6
+Initializing agent...
+Loading dataset: /Users/vivekraj/.gemini/antigravity/scratch/data-analytics-agent/test_data.csv
+Sending chat message...
+Error: Unable to coerce value: 6

@@ -1,0 +1,108 @@
+[
+  {
+    "id": "eval_1764612966_0",
+    "session_id": "test_session",
+    "timestamp": "2025-12-01T23:46:06.183386",
+    "rating": "positive",
+    "feedback": "Great job!",
+    "context": {
+      "user_message": "hi",
+      "agent_response": "hello"
+    }
+  },
+  {
+    "id": "eval_1764613643_1",
+    "session_id": "test_session",
+    "timestamp": "2025-12-01T23:57:23.107311",
+    "rating": "positive",
+    "feedback": "[LLM Auto-Eval] Score: 10/10. The agent's response is absolutely perfect for the given query. It provides a factually correct answer directly addressing the user's intent in a clear and concise manner. There is no room for improvement.",
+    "context": {
+      "user_message": "What is the capital of France?",
+      "agent_response": "The capital of France is Paris."
+    },
+    "llm_evaluation": {
+      "score": 10,
+      "reasoning": "The agent's response is absolutely perfect for the given query. It provides a factually correct answer directly addressing the user's intent in a clear and concise manner. There is no room for improvement.",
+      "criteria_scores": {
+        "correctness": 10,
+        "helpfulness": 10,
+        "clarity": 10
+      }
+    }
+  },
+  {
+    "id": "eval_1764613788_2",
+    "session_id": "test_session",
+    "timestamp": "2025-12-01T23:59:48.460476",
+    "rating": "positive",
+    "feedback": "[LLM Auto-Eval] Score: 10/10. The agent provided a perfectly appropriate, correct, and clear response to a simple greeting. The user's query 'hi' was a conversational opener, and 'hello' is a standard and expected reciprocal greeting, effectively fulfilling the user's immediate intent. There was no data analytics context in the user's query for the agent to address.",
+    "context": {
+      "user_message": "hi",
+      "agent_response": "hello"
+    },
+    "llm_evaluation": {
+      "score": 10,
+      "reasoning": "The agent provided a perfectly appropriate, correct, and clear response to a simple greeting. The user's query 'hi' was a conversational opener, and 'hello' is a standard and expected reciprocal greeting, effectively fulfilling the user's immediate intent. There was no data analytics context in the user's query for the agent to address.",
+      "criteria_scores": {
+        "correctness": 10,
+        "helpfulness": 10,
+        "clarity": 10
+      }
+    }
+  },
+  {
+    "id": "eval_1764614547_3",
+    "session_id": "280a35ed-b927-4011-94c3-5e70da0993bd",
+    "timestamp": "2025-12-02T00:12:27.947749",
+    "rating": "positive",
+    "feedback": "Great! The calculation was accurate and well-explained.",
+    "context": {
+      "user_message": null,
+      "agent_response": null
+    }
+  },
+  {
+    "id": "eval_1764614558_4",
+    "session_id": "280a35ed-b927-4011-94c3-5e70da0993bd",
+    "timestamp": "2025-12-02T00:12:38.626360",
+    "rating": "positive",
+    "feedback": "Perfect answer with clear explanation of the results.",
+    "context": {
+      "user_message": null,
+      "agent_response": null
+    }
+  },
+  {
+    "id": "eval_1764614570_5",
+    "session_id": "280a35ed-b927-4011-94c3-5e70da0993bd",
+    "timestamp": "2025-12-02T00:12:50.582027",
+    "rating": "negative",
+    "feedback": "The analysis was correct but the visualization could be more detailed.",
+    "context": {
+      "user_message": null,
+      "agent_response": null
+    }
+  },
+  {
+    "id": "eval_1764614581_6",
+    "session_id": "280a35ed-b927-4011-94c3-5e70da0993bd",
+    "timestamp": "2025-12-02T00:13:01.636947",
+    "rating": "positive",
+    "feedback": "Excellent breakdown with good statistical analysis.",
+    "context": {
+      "user_message": null,
+      "agent_response": null
+    }
+  },
+  {
+    "id": "eval_1764614584_7",
+    "session_id": "280a35ed-b927-4011-94c3-5e70da0993bd",
+    "timestamp": "2025-12-02T00:13:04.096305",
+    "rating": "positive",
+    "feedback": null,
+    "context": {
+      "user_message": null,
+      "agent_response": null
+    }
+  }
+]
