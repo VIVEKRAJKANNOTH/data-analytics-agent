@@ -78,14 +78,30 @@ body {
   backdrop-filter: blur(10px);
 }
 
+.header-branding {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
 .app-title {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 700;
   background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0;
+  line-height: 1.2;
+}
+
+.app-tagline {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin: 0;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.3px;
 }
 
 .upload-button {
@@ -705,7 +721,11 @@ body {
   }
 
   .app-title {
-    font-size: 1.25rem;
+    font-size: 1.35rem;
+  }
+
+  .app-tagline {
+    font-size: 0.75rem;
   }
 
   .chat-container {

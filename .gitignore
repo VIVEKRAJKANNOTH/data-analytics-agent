@@ -17,7 +17,9 @@ uploads/*
 
 # Generated data and plots
 data/plots/
+data/*.csv
 *.json
+*.log
 
 # React
 frontend/node_modules/

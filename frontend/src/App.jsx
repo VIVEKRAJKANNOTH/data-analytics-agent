@@ -11,7 +11,10 @@ function App() {
             <div className="app">
                 {/* Header */}
                 <header className="app-header flex justify-between items-center px-6">
-                    <h1 className="app-title">Data Analytics Agent</h1>
+                    <div className="header-branding">
+                        <h1 className="app-title">DataTalk AI</h1>
+                        <p className="app-tagline">Stop querying. Start talking to your data.</p>
+                    </div>
                     <Link to="/admin" className="text-gray-600 hover:text-blue-600 transition-colors" title="Admin Dashboard">
                         <LayoutDashboard size={24} />
                     </Link>

@@ -11,7 +11,7 @@ function ChatInterface() {
     const [messages, setMessages] = useState([
         {
             role: 'assistant',
-            content: 'Hi! I\'m your AI data analyst. Upload a file or generate sample data to get started!'
+            content: '👋 Welcome to **DataTalk AI**!\n\n*Stop querying. Start talking to your data.*\n\nUpload a file or generate sample data to begin our conversation!'
         }
     ])
     const [input, setInput] = useState('')
