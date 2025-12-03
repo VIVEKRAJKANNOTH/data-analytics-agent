@@ -679,6 +679,5 @@ For questions, issues, or suggestions:
 
 ---
 
-**Built with ❤️ using Google Gemini AI**
 
 *Transform your data into insights with the power of AI!*
